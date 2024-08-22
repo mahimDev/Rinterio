@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rinterio</title>
+    <link rel="stylesheet" href="index.css" />
     <!-- tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -17,8 +18,53 @@
         },
       };
     </script>
+    <!-- font family -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      .poppins-thin {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
   </head>
-  <body>
-    <h1>ami mahim</h1>
+  <body
+    class="container mx-auto poppins-thin bg-gradient-to-r from-[#ECE9E6] to-[#d5d5d5]">
+    <header>
+      <nav class="flex justify-evenly py-10 items-center">
+        <div class="flex items-center gap-2 cursor-pointer">
+          <div class="shared-btn-bg bg-[#ABEF5F]">
+            <img class="shared-btn" src="assets/up-right-arrow.png" alt="" />
+          </div>
+          <div class="text-4xl font-bold">Rinterio</div>
+        </div>
+        <div>
+          <ul class="flex font-normal text-lg gap-10">
+            <li class="font-bold">Home</li>
+            <li class="text-[#737373]">Services</li>
+            <li class="text-[#737373]">Protfolio</li>
+            <li class="text-[#737373]">Blog</li>
+            <li class="text-[#737373]">Contact Us</li>
+          </ul>
+        </div>
+        <div class="flex items-center gap-5">
+          <div class="bg-white rounded-full">
+            <img class="w-12 p-3" src="assets/loupe.png" alt="" />
+          </div>
+          <div class="bg-white rounded-full">
+            <img class="w-12 p-3" src="assets/grocery-store.png" alt="" />
+          </div>
+          <div class="flex bg-[#ABEF5F] py-2 px-4 gap-4 rounded-full">
+            <button class="font-semibold text-lg">Book Consult</button>
+            <div class="shared-btn-bg bg-black">
+              <img
+                class="shared-btn"
+                src="assets/up-right-arrow (1).png"
+                alt="" />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
   </body>
 </html>

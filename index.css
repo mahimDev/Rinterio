@@ -1,0 +1,8 @@
+.shared-btn-bg {
+  /* background-color: rgb(171, 239, 95, 100%); */
+  border-radius: 100%;
+}
+.shared-btn {
+  width: 38px;
+  padding: 12px;
+}
